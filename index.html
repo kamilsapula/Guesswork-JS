@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Discovering boxes game</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+  <section class="box-info">
+      <h2>Losowanie</h2>
+      <p>W aplikacji do sterowania wykorzystywane są strzałki. Wybierz odpowiedni boks za pomocą strzałek, a następnie użyj klawisza enter by sprawdzić, czy udało Ci się wygrać.</p>
+      <p></p>
+  </section>
+  
+   <section class="box-section">
+       <div class="box" id="box1">
+           <div class="box-front">
+               <img src="img/credit.png" alt="credit" class="box-img">
+               <div class="box-header">
+                   <span class="box-uppercase">biz</span><span>nest Kredyt dla firm do 500zł</span>
+               </div>
+               <ul class="box-list">
+                   <li class="list-item"> na  <span>dowolny cel</span> biznesowy</li>
+                   <li class="list-item"> okres spłaty do <span>144 miesięcy</span></li>
+                   <li class="list-item"> do <span>30 000 zł </span>bez zaświadczenia z ZUS</li>
+                   <li class="list-item"> wstępna decyzja <span>nawet w 2 minuty</span></li>
+               </ul>
+               <div class="btn-container">
+                   <a href="#" class="box-btn">zamów rozmowę</a>
+               </div>
+               <p class="info-bottom">Nota prawna</p>
+           </div>
+           <div class="box-back">
+               <p class="chosen-box-text">Wybrałeś złą kartę!</p>
+           </div>
+       </div>
+       <div class="box chosen-box" id="box2">
+           <div class="box-front">
+               <img src="img/personal-account.png" alt="personal account" class="box-img">
+               <div class="box-header">
+                   <p>Nest Konto osobiste</p>
+               </div>
+               <ul class="box-list">
+                   <li class="list-item"><span> 0 zł</span> za założenie i prowadzenie konta</li>
+                   <li class="list-item"><span> 0 zł</span> za wydanie i korzystanie z pierwszej karty</li>
+                   <li class="list-item"><span> 0 zł</span> za wypłaty gotówki ze wszystkich bankomatów w Polsce</li>
+                   <li class="list-item"><span> 0 zł</span> za internetowe przelewy krajowe</li>
+               </ul>
+               <div class="btn-container">
+                   <a href="#" class="box-btn">załóż konto</a>
+               </div>
+               <p class="info-bottom">Nota prawna</p>
+           </div>
+           <div class="box-back">
+               <p class="chosen-box-text">Wybrałeś złą kartę!</p>
+           </div>
+       </div>
+       <div class="box" id="box3">
+          <div class="box-front">
+              <img src="img/business-account.png" alt="business account" class="box-img">
+              <div class="box-header">
+                  <span class="box-uppercase">biz</span><span>nest 
+                   Konto dla firm</span>
+              </div>
+              <ul class="box-list">
+                   <li class="list-item"><span> 0 zł</span> za założenie i prowadzenie konta</li>
+                   <li class="list-item"><span> 0 zł</span> za wydanie i korzystanie z pierwszej karty</li>
+                   <li class="list-item"><span> 0 zł</span> za internetowe przelewy do ZUS-u i US</li>
+                   <li class="list-item"><span> 0 zł</span> za wypłaty gotówki ze wszystkich bankomatów w Polsce</li>
+              </ul>
+              <div class="btn-container">
+                  <a href="#" class="box-btn">załóż konto</a>
+               </div>
+              <p class="info-bottom">Nota prawna</p>
+            </div>
+            <div class="box-back">
+               <p class="chosen-box-text">Wybrałeś złą kartę!</p>
+           </div>
+        </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,2 +1,3 @@
--Simple Javascript discovering boxes game (Polish lang)
-Application: kamilsapula.github.io/Guesswork-JS
+Simple JS discovering boxes game (language: PL)
+
+Link: kamilsapula.github.io/Guesswork-JS
